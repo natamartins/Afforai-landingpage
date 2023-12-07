@@ -3,7 +3,8 @@ import React, { useState } from 'react'
 import Image from "next/image";
 import Link from "next/link";
 import Logo from '@/img/logo-new-violet.webp'
-import CardLink from '@/components/CardLink/Index'
+import CardPurple from '@/components/CardLinks/CardPurple'
+import CardGray from '@/components/CardLinks/CardGray'
 import { Menu } from 'lucide-react';
 
 const Index = () => {
@@ -34,8 +35,8 @@ const Index = () => {
                     </Link>
                 </ul>
                 <div className="container_nav-btn">
-                    <Link href='https://afforai.com/signup' className="button">Log in</Link>
-                    <CardLink title="Try for free" />
+                    <CardGray title="Log in" />
+                    <CardPurple title="Try for free" />
                     <button className="button-menu" onClick={handleToggleClick}>
                         <Menu size={20} />
                     </button>

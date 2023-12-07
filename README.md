@@ -16,6 +16,7 @@ This project was developed with the following technologies:
 - Clean Code
 
 <h2 id="usage">🎯 Use</h2>
+
 The application is available for use [here](https://afforai-landingpage.vercel.app/). You can also run it on your machine locally. Make sure you have `Node.js` and `yarn` installed before proceeding with the steps below:
 
 1. Clone the project:

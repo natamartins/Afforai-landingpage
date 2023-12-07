@@ -1,7 +1,13 @@
+import NavBar from '@/components/NavBar/Index'
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <>
+      <header>
+        <NavBar />
+      </header>
+      <main></main>
+      <footer></footer>
+    </>
   )
 }

@@ -5,8 +5,8 @@ import '@/styles/styles.scss'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Afforai',
-  description: 'Afforai - Reseaech anything with an AI assistent',
+  title: 'Afforai - Reseaech anything with an AI assistent',
+  description: 'Your second brain for maximizing productivity',
 }
 
 export default function RootLayout({

@@ -1,0 +1,26 @@
+.list_info {
+    max-width: 40rem;
+    width: 100%;
+
+    span {
+        padding: 6px 16px;
+        border-radius: 8px;
+        border: 1px solid $purple-primary;
+        color: $purple-primary;
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: $black-secondy;
+        margin-top: 1.7rem;
+        margin-bottom: 1.7rem;
+    }
+
+    p {
+        max-width: 37rem;
+        width: 100%;
+        font-size: 16px;
+        color: $gray-quartiary;
+    }
+}

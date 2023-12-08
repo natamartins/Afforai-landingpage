@@ -9,6 +9,10 @@ import CardTitleCheck from '@/components/CardTitleCheck/Index'
 import CardListCheckGreen from '@/components/CardListCheckGreen/Index'
 import CardListInfo from '@/components/CardListInfo/Index'
 import CardInfoSectionThree from '@/components/CardInfoSectionThree/Index'
+import CardInfoSectionFive from '@/components/CardInfoSectionFive/Index'
+import IconFastMode from '@/img/fast-forward.svg'
+import IconPowerFul from '@/img/power-off.svg'
+import IconSearch from '@/img/search-plus.svg'
 import LaptopLadingpage01 from '@/img/laptop-landing-1.png'
 import LaptopLadingpage02 from '@/img/laptop-landing-2.png'
 import LaptopLadingpage03 from '@/img/laptop-landing-3.png'
@@ -19,6 +23,9 @@ import LaptopLadingpage07 from '@/img/laptop-landing-7.png'
 import LaptopLadingpage08 from '@/img/laptop-landing-8.png'
 import LaptopLadingpage09 from '@/img/laptop-landing-9.png'
 import LaptopLadingpage10 from '@/img/laptop-landing-10.png'
+import LaptopLadingpage11 from '@/img/laptop-landing-11.png'
+import LaptopLadingpage12 from '@/img/laptop-landing-12.png'
+import LaptopLadingpage13 from '@/img/laptop-landing-13.png'
 
 export default function Home() {
   const url = 'https://appsumo.com/products/Afforai/?p=1&clickId=WZ6wcxyF0xyPUvwxVMQEwwLVUkFSpxQm%3AVl6wM0&irgwc=1&utm_medium=4245229&utm_campaign=Online%20Tracking%20Link&utm_source=IR#pricePlans'
@@ -143,11 +150,67 @@ export default function Home() {
           </article>
         </section>
         <section className='section_four container'>
-
+          <div className='section_four-card-info'>
+            <CardListInfo
+              title="Create multiple chatbots for different purposes"
+              subtitle="Most versatile"
+              description="Legal documents? Summarising a book? Extracting data from a website? We allow you to create multiple chatbots at one time, so you can use Afforai for a whole range of purposes."
+            />
+            <div className='section_four-card-link'>
+              <CardPurple title="Get started" />
+              <CardGray title="View pricing" />
+            </div>
+          </div>
+          <div>
+            <Image src={LaptopLadingpage11} alt='' />
+          </div>
         </section>
         <section className='section_five container'>
-
+          <div className='section_five-imagem-laptop12 card-one'>
+            <Image src={LaptopLadingpage12} alt='' className='section_five-img-flaptop' />
+          </div>
+          <div className='section_five-box-info card-two'>
+            <CardListInfo
+              title="Customize your assistant with a range of different modes"
+              subtitle="Different Modes Available"
+              description="Further power your questions with additional modes. Afforai allows you to switch between three different modes, each which have unique ways of utilising our AI tools to answer your question(s)."
+            />
+          </div>
+          <div className='section_five-card-info-section-five card-three'>
+            <CardInfoSectionFive
+              icon={IconFastMode}
+              title="Fast Mode (default)"
+              subtitle="1 credit"
+              description="Quickly ask a question and receive an answer from the AI. This mode is most suited for applications that require only a small part of the documents to be scanned (ex. FAQ Chatbot, Search)."
+            />
+            <CardInfoSectionFive
+              icon={IconPowerFul}
+              title="Powerful Mode"
+              subtitle="4 credit"
+              description="Get answers of extra high quality from the AI. This mode is most suited for applications that require inferences as well as the full documents to be scanned (ex. Textual Data Analysis, Search with Inference, Report Generation)."
+            />
+            <CardInfoSectionFive
+              icon={IconSearch}
+              title="Google Mode"
+              subtitle="5 credit"
+              description="Supplement your answers with the top 3 results from Google Search. This adds extra reliability to back up our already incredibly accurate answers."
+            />
+          </div>
         </section>
+        <section className='section_six container'>
+          <div className='section_six-card-info'>
+            <CardListInfo
+              title="Regardless of where you are from, Afforai is for you"
+              subtitle="Multiple Language Supported"
+              description="We support more than 100 Languages, meaning you can seamlessly use our services regardless of where you are from. Our Cross Language Querying feature also allows flawless translation of documents."
+            />
+          </div>
+          <div>
+            <Image src={LaptopLadingpage13} alt='' />
+          </div>
+        </section>
+        <section className='section_seven container'></section>
+        <section className='section_eight container'></section>
       </main>
       <footer></footer>
     </>

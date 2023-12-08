@@ -1,0 +1,82 @@
+.section_five {
+    display: grid;
+    // align-items: center;
+    grid-template-areas:
+        "card-one card-two"
+        "card-one card-three"
+        "card-one card-three"
+    ;
+    justify-content: space-between;
+    margin-bottom: 15rem;
+}
+
+.section_five-img-flaptop {
+    max-width: 30rem;
+    width: 100%;
+    height: 100%;
+}
+
+.section_five-imagem-laptop12 {
+    grid-area: "card-one";
+}
+
+.section_five-box-info {
+    max-width: 45rem;
+    width: 100%;
+    margin-bottom: 15rem;
+    grid-area: "card-two";
+}
+
+
+.section_five-card-info-section-five {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 45rem;
+    width: 100%;
+    grid-area: "card-three";
+    grid-column: 2;
+    margin-top: -12rem;
+}
+
+.section_five-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 35rem;
+    width: 100%;
+
+}
+
+@media (max-width: 810px) {
+
+    .section_five {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        grid-template-areas:
+            "card-two"
+            "card-one"
+            "ard-three"
+        ;
+    }
+
+    .section_five-imagem-laptop12 {
+        margin-bottom: 5rem;
+    }
+
+    .section_five-box-info {
+        grid-row: 1;
+        margin-bottom: 5rem;
+
+    }
+
+    .section_five-card-info-section-five {
+        grid-column: 1;
+        margin-top: 0rem;
+        max-width: 35rem;
+        margin: auto;
+        text-align: start;
+    }
+}

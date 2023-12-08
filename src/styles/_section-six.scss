@@ -1,0 +1,28 @@
+.section_six {
+    display: flex;
+    align-items: center;
+
+    img {
+        max-width: 30rem;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.section_six-card-info {
+    max-width: 33rem;
+    width: 100%;
+}
+
+@media (max-width: 810px) {
+    .section_six {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .section_six-card-info{
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+    }
+}

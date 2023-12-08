@@ -1,5 +1,6 @@
 .section_three-cards-info-three {
     padding: 2rem;
+    margin-bottom: 10rem;
 }
 
 .section_three-card-list-info {
@@ -35,5 +36,9 @@
     .section_three-info-two {
         flex-direction: column;
         justify-content: center;
+    }
+
+    .section_three-cards-info-three {
+        margin-bottom: 5rem;
     }
 }

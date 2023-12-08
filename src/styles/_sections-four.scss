@@ -1,0 +1,44 @@
+.section_four {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 15rem;
+
+    img {
+        max-width: 35rem;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.section_four-card-info {
+    max-width: 33rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section_four-card-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (max-width: 810px){
+    .section_four {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-bottom:5rem ;
+    }
+
+    .section_four-card-info{
+        margin-bottom: 5rem;
+    }
+
+    .section_four-card-link{
+        justify-content: center;
+    }
+}

@@ -1,13 +1,13 @@
 .button-gray {
     padding: 5px 14px;
     border-radius: 8px;
-    border: 1px solid $gray-secondy;
+    border: 1px solid $gray-02;
     font-size: 14px;
-    background-color: $gray-primary;
-    color: $black-tertiary;
+    background-color: $gray-01;
+    color: $black-03;
 
     &:hover {
-        background-color: $gray-secondy;
+        background-color: $gray-02;
         scale: 1.1;
     }
 }
@@ -21,7 +21,7 @@
     color: $white-primary;
 
     &:hover {
-        background-color: $gray-secondy;
+        background-color: $gray-02;
         scale: 1.1;
         background: linear-gradient(135deg, #3b00a2, #884fe9 29.95%, #2b0075 60.11%, #833bff);
     }

@@ -1,4 +1,6 @@
-// .section_two{}
+.section_two {
+    margin-bottom: 10rem;
+}
 
 .section_two-card-users-people {
     display: flex;
@@ -10,10 +12,10 @@
     margin-bottom: 15rem;
 
     p {
-        color: $gray-quartiary;
+        color: $gray-04;
 
         span {
-            color: $purple-primary;
+            color: $purple-01;
         }
     }
 
@@ -28,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
     gap: 1rem;
 }
 
@@ -41,11 +43,11 @@
 
     h2 {
         font-size: 36px;
-        color: $black-secondy;
+        color: $black-02;
     }
 
     p {
-        color: $gray-quartiary;
+        color: $gray-04;
         max-width: 30rem;
     }
 }
@@ -76,6 +78,10 @@
 }
 
 @media (max-width: 810px) {
+    .section_two {
+        margin-bottom: 3rem;
+    }
+
     .section_two-card-users-people {
         margin-bottom: 5rem;
     }

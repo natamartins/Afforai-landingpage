@@ -1,0 +1,39 @@
+.section_three-cards-info-three {
+    padding: 2rem;
+}
+
+.section_three-card-list-info {
+    max-width: 28rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.section_three-info-one {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section_three-info-two {
+    display: flex;
+    gap: 1rem;
+}
+
+.section_three-info-boxs-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (max-width: 810px) {
+
+    .section_three-info-one,
+    .section_three-info-two {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

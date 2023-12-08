@@ -19,7 +19,7 @@
     border: 1px solid $border-transparent;
     border-radius: 16px;
     padding: 10px 24px;
-    color: $black-primary;
+    color: $black-01;
 }
 
 .container_nav-bar {
@@ -38,10 +38,10 @@
     font-size: 14px;
 
     a {
-        color: $black-primary;
+        color: $black-01;
 
         &:hover {
-            color: $black-tertiary;
+            color: $black-03;
         }
     }
 }
@@ -55,9 +55,9 @@
     align-items: center;
     padding: 3px 14px;
     border-radius: 8px;
-    border: 1px solid $gray-secondy;
+    border: 1px solid $gray-02;
     background-color: transparent;
-    color: $gray-tertiary;
+    color: $gray-03;
 }
 
 .container_nav-links-mobile {
@@ -67,11 +67,11 @@
     gap: 1rem;
 
     a {
-        color: $black-primary;
+        color: $black-01;
         font-size: 14px;
 
         &:hover {
-            color: $black-tertiary;
+            color: $black-03;
         }
     }
 }

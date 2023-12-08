@@ -1,0 +1,43 @@
+.info_section-three {
+    border: 1px solid $gray-03;
+    border-radius: 1rem;
+
+    img {
+        width: 100%;
+        height: fit-content;
+        border-radius: 1rem 1rem 0px 0px;
+        background: $gray-05;
+        border-bottom: 1px solid $gray-03;
+    }
+}
+
+
+.box_info-section-three {
+    padding: 10px 1rem 2rem 1rem;
+
+    h3 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 16px;
+        margin-bottom: 5px;
+        color: $black-02;
+
+        span {
+            padding: 0.23rem 0.5rem;
+            font-size: 9px;
+            font-weight: 500;
+            border-radius: 20px;
+            background: $purple-05;
+            color: $purple-04;
+        }
+    }
+
+    p {
+        font-size: 12px;
+        color: $gray-04;
+        a{
+            color: $blue-01;
+        }
+    }
+}

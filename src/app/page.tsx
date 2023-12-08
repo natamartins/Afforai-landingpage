@@ -3,16 +3,22 @@ import Link from 'next/link'
 import { ChevronRight } from 'lucide-react'
 import AppSumo from '@/img/appsumo.png'
 import NavBar from '@/components/NavBar/Index'
-import LaptopLadingpage01 from '@/img/laptop-landing-1.png'
-import LaptopLadingpage02 from '@/img/laptop-landing-2.png'
-import LaptopLadingpage03 from '@/img/laptop-landing-3.png'
-import LaptopLadingpage04 from '@/img/laptop-landing-4.png'
-import LaptopLadingpage05 from '@/img/laptop-landing-5.png'
 import CardPurple from '@/components/CardLinks/CardPurple'
 import CardGray from '@/components/CardLinks/CardGray'
 import CardTitleCheck from '@/components/CardTitleCheck/Index'
 import CardListCheckGreen from '@/components/CardListCheckGreen/Index'
 import CardListInfo from '@/components/CardListInfo/Index'
+import CardInfoSectionThree from '@/components/CardInfoSectionThree/Index'
+import LaptopLadingpage01 from '@/img/laptop-landing-1.png'
+import LaptopLadingpage02 from '@/img/laptop-landing-2.png'
+import LaptopLadingpage03 from '@/img/laptop-landing-3.png'
+import LaptopLadingpage04 from '@/img/laptop-landing-4.png'
+import LaptopLadingpage05 from '@/img/laptop-landing-5.png'
+import LaptopLadingpage06 from '@/img/laptop-landing-6.png'
+import LaptopLadingpage07 from '@/img/laptop-landing-7.png'
+import LaptopLadingpage08 from '@/img/laptop-landing-8.png'
+import LaptopLadingpage09 from '@/img/laptop-landing-9.png'
+import LaptopLadingpage10 from '@/img/laptop-landing-10.png'
 
 export default function Home() {
   const url = 'https://appsumo.com/products/Afforai/?p=1&clickId=WZ6wcxyF0xyPUvwxVMQEwwLVUkFSpxQm%3AVl6wM0&irgwc=1&utm_medium=4245229&utm_campaign=Online%20Tracking%20Link&utm_source=IR#pricePlans'
@@ -89,6 +95,58 @@ export default function Home() {
             />
             <Image src={LaptopLadingpage05} alt='image laptop ladingpage 05' />
           </div>
+        </section>
+        <section className='section_three container'>
+          <div className='section_three-card-list-info'>
+            <CardListInfo
+              title="Built for the user"
+              subtitle="Why choose us?"
+              description="Afforai is where exceptional customer focus meets exceptional technology."
+            />
+          </div>
+          <article className='section_three-cards-info-three'>
+            <div className='section_three-info-one'>
+              <CardInfoSectionThree
+                image={LaptopLadingpage06}
+                title="Cross Language Querying"
+                subtitle="NEW"
+                description="Afforai is able to translate your documents to more than 100 languages, meaning wherever you’re from, you can be assured we can help."
+              />
+              <CardInfoSectionThree
+                image={LaptopLadingpage07}
+                title="Multiple file types supported"
+                description="Afforai can extract data from a multitude of formats, including; PDF, URL, DOCX, PPTX & XLSX, as well as your own text & links from Websites. The possibilities are limitless!"
+              />
+            </div>
+            <div className='section_three-info-two'>
+              <div className='section_three-info-boxs-info'>
+                <CardInfoSectionThree
+                  image={LaptopLadingpage08}
+                  title="Valuable Data Citation"
+                  subtitle="NEW"
+                  description="Afforai is able to show exactly where your data has been extracted from & highlight it for you, so you never loose your time validating information again."
+                />
+                <CardInfoSectionThree
+                  image={LaptopLadingpage10}
+                  title="Built in Document Viewer"
+                  description="Never Switch tabs again. Afforai’s document viewer means that you can have your uploaded files right next to your chatbot, giving you the ability to search the file, and refer to it for data citations."
+                />
+              </div>
+              <CardInfoSectionThree
+                image={LaptopLadingpage09}
+                title="Unbreakable Security"
+                description="Afforai uses Azure Server & Azure OpenAI API. In other words, your data is more than safe with us."
+                link="https://afforai.com/security"
+                titleLink='Learn more.'
+              />
+            </div>
+          </article>
+        </section>
+        <section className='section_four container'>
+
+        </section>
+        <section className='section_five container'>
+
         </section>
       </main>
       <footer></footer>

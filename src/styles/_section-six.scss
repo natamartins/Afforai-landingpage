@@ -1,9 +1,11 @@
 .section_six {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15rem;
 
     img {
-        max-width: 30rem;
+        max-width: 40rem;
         width: 100%;
         height: 100%;
     }

@@ -26,6 +26,11 @@ import LaptopLadingpage10 from '@/img/laptop-landing-10.png'
 import LaptopLadingpage11 from '@/img/laptop-landing-11.png'
 import LaptopLadingpage12 from '@/img/laptop-landing-12.png'
 import LaptopLadingpage13 from '@/img/laptop-landing-13.png'
+import LaptopLadingpage14 from '@/img/laptop-landing-14.png'
+import LaptopLadingpage15 from '@/img/laptop-landing-15.png'
+import LaptopLadingpage17 from '@/img/laptop-landing-17.png'
+import LaptopLadingpage18 from '@/img/laptop-landing-18.png'
+import LaptopLadingpage19 from '@/img/laptop-landing-19.png'
 
 export default function Home() {
   const url = 'https://appsumo.com/products/Afforai/?p=1&clickId=WZ6wcxyF0xyPUvwxVMQEwwLVUkFSpxQm%3AVl6wM0&irgwc=1&utm_medium=4245229&utm_campaign=Online%20Tracking%20Link&utm_source=IR#pricePlans'
@@ -209,8 +214,54 @@ export default function Home() {
             <Image src={LaptopLadingpage13} alt='' />
           </div>
         </section>
-        <section className='section_seven container'></section>
-        <section className='section_eight container'></section>
+        <section className='section_seven container'>
+          <div className='section_seven-imagem-laptop14'>
+            <Image src={LaptopLadingpage14} alt='' />
+          </div>
+          <div className='section_seven-card-info'>
+            <CardListInfo
+              title="File Wizard - a game changing new feature"
+              subtitle="Get more out of your files"
+              description="Convert your files with less effort than ever. Afforai’s File Wizard feature allows you to transform your files, in limitless different ways. We can translate, summarize, or explain your upload in no time."
+            />
+          </div>
+        </section>
+        <section className='section_eight container'>
+          <CardListInfo
+            title="Upload Files directly from Google Drive, One Drive & Dropbox"
+            subtitle="Seamless Integrations - Coming Soon"
+            description="Afforai allows you to upload files directly from Google Drive, One Drive & Dropbox, meaning your experience will be smooth sailing regardless of your preferred"
+          />
+          <div className='section_eight-imagem-laptop15'>
+            <Image src={LaptopLadingpage15} alt='' />
+          </div>
+        </section>
+        <section className='section_nine container'>
+          <div className='section_nine-card-list-info'>
+            <CardListInfo
+              title="Unquestionable accuracy & reliability"
+              description="We pride ourselves on the quality of our chatbot’s responses, and go the extra mile to ensure the accuracy & reliability of our answers."
+            />
+          </div>
+          <div className='section_nine-card-info'>
+            <CardInfoSectionThree
+              image={LaptopLadingpage17}
+              title="Trusted by users all over the World"
+              description="Afforai is used all around the World, saving thousands of people time and money with our speed & accuracy."
+            />
+            <CardInfoSectionThree
+              image={LaptopLadingpage18}
+              title="Information filtering"
+              description="Afforai gives you the highest quality answers, and filters out any irrelevant information."
+            />
+            <CardInfoSectionThree
+              image={LaptopLadingpage19}
+              title="Built in Comprehension Model"
+              description="Our powerful comprehension model increases the power of our data retrieval."
+            />
+
+          </div>
+        </section>
       </main>
       <footer></footer>
     </>

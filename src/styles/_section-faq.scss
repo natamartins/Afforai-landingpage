@@ -1,0 +1,33 @@
+.section_faqs {
+    margin-bottom: 10rem;
+}
+
+.section_faqs-list-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section_faqs-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h3 {
+        font-size: 36px;
+        color: $black-02;
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        font-size: 16px;
+        color: $gray-04;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+}

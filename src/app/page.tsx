@@ -15,6 +15,11 @@ import IconFastMode from '@/img/fast-forward.svg'
 import IconPowerFul from '@/img/power-off.svg'
 import IconSearch from '@/img/search-plus.svg'
 import PhReview from '@/img/ph-review.webp'
+import CarouselInfinitLoop from '@/components/CarouselInfinitLoop/Index'
+import CardFAQs from '@/components/CardFaqs/Inadex'
+import Logo from '@/img/logo-new-violet.webp'
+import TopPostBadge from '@/img/top-post-badge.svg'
+import SputnikATX from '@/img/sputnikatx.png'
 import LaptopLadingpage01 from '@/img/laptop-landing-1.png'
 import LaptopLadingpage02 from '@/img/laptop-landing-2.png'
 import LaptopLadingpage03 from '@/img/laptop-landing-3.png'
@@ -30,10 +35,12 @@ import LaptopLadingpage12 from '@/img/laptop-landing-12.png'
 import LaptopLadingpage13 from '@/img/laptop-landing-13.png'
 import LaptopLadingpage14 from '@/img/laptop-landing-14.png'
 import LaptopLadingpage15 from '@/img/laptop-landing-15.png'
+import LaptopLadingpage16 from '@/img/laptop-landing-16.png'
 import LaptopLadingpage17 from '@/img/laptop-landing-17.png'
 import LaptopLadingpage18 from '@/img/laptop-landing-18.png'
 import LaptopLadingpage19 from '@/img/laptop-landing-19.png'
-import CarouselInfinitLoop from '@/components/CarouselInfinitLoop/Index'
+import LaptopLadingpage20 from '@/img/laptop-landing-20.png'
+
 
 export default function Home() {
   const url = 'https://appsumo.com/products/Afforai/?p=1&clickId=WZ6wcxyF0xyPUvwxVMQEwwLVUkFSpxQm%3AVl6wM0&irgwc=1&utm_medium=4245229&utm_campaign=Online%20Tracking%20Link&utm_source=IR#pricePlans'
@@ -388,8 +395,107 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className='section_eleven container'>
+          <div className='section_eleven-card-info'>
+            <CardListInfo
+              title="100% money back guaranteed if you are not satisfied"
+              subtitle="My promise to you"
+              description="We crafted Afforai with total belief in our ability to make a chatbot that is not only powerful and reliable, but able to maximise your satisfaction as a user. This is why we have implemented a money back guarantee if you find yourself not satisfied with the capabilities of Afforai."
+            />
+            <div className='section_eleven-image-laptop20'>
+              <Image src={LaptopLadingpage20} alt='' />
+            </div>
+          </div>
+          <div className='section_eleven-card-info-get-started'>
+            <CardListInfo
+              title="Start saving time today!"
+              description="Join an ever-growing community, and get with Afforai started free of charge!"
+            />
+            <CardPurple title="Get Started for Free" />
+            <Image src={LaptopLadingpage16} alt='' />
+          </div>
+        </section>
+        <section className='section_faqs'>
+          <div className='section_faqs-card-info'>
+            <h3>FAQs</h3>
+            <p>For more information, check out our <Link href='https://help.afforai.com/en/' > Help Center.</Link></p>
+          </div>
+          <div className='section_faqs-list-questions'>
+            <CardFAQs
+              question="Is Afforai free?"
+              answer="Yes, Afforai is free for all new users. Upon signing up, users are given 50 permanent credits"
+            />
+            <CardFAQs
+              question="What are subscription credits versus permanent credits?"
+              answer="Subscription credits come from monthly payments, while permanent credits come from top ups. Subscription credits will be used before permanent credits, and subscription credits expire every month while permanent credits stay."
+            />
+            <CardFAQs
+              question="Does Afforai support documents storing on the cloud like Google Drive, One Drive, or Drop Box?"
+              answer="Currently Afforai only support uploading local documents and websites, in the near future we will integrate these cloud solutions. Sign up with us to get updated"
+            />
+            <CardFAQs
+              question="Does Afforai support uploading images and video?"
+              answer="Currently Afforai supports OCR for scanned PDF, but not via image file directly. Afforai currently working on working with video and audio transcript."
+            />
+            <CardFAQs
+              question="Does Afforai support collaboration between accounts?"
+              answer="Currently Afforai is working on a solution to allow users to share chatbots and files. Sign up with us to get updated when this feature roll out."
+            />
+            <CardFAQs
+              question="Is my data secured?"
+              answer="Yes your data is secured with Afforai. We don't store your conversation with the AI, and the files you uploaded on the system is stored on the cloud using Microsoft Azure and MongoDB with their standard security. LLM calls are made using OpenAI Azure with their security measures."
+            />
+          </div>
+        </section>
       </main>
-      <footer></footer>
+      <footer className='card_footer container'>
+        <ul className='card_footer-container-list'>
+          <li className='card_footer-list-one'>
+            <div className='card_footer-list-one-box-logo'>
+              <div>
+                <Image src={Logo} alt='' />
+                <h3>Afforai</h3>
+              </div>
+              <p>Afforai is your research tool in to damn near anything. Helping you summarise, translate, and withdraw data from documents.</p>
+              <p>Copyright © 2023 Afforai Inc. All rights reserved.</p>
+            </div>
+            <div className='card_footer-image-top-post-badge'>
+              <Image src={TopPostBadge} alt='' />
+            </div>
+            <div className='card_footer-box-image-sputnikatx'>
+              <h3>Backed by</h3>
+              <Image src={SputnikATX} alt='' />
+            </div>
+          </li>
+          <li className='card_footer-list-two'>
+            <h3>Company</h3>
+            <Link href=''>Our Stony</Link>
+            <Link href=''>Affiliate</Link>
+            <Link href=''>security</Link>
+            <Link href=''>Roadmap</Link>
+            <Link href=''>Contact Us</Link>
+          </li>
+          <li className='card_footer-list-three'>
+            <h3>Resources</h3>
+            <Link href=''>Help Center</Link>
+            <Link href=''>API Docs</Link>
+            <Link href=''>Terms of Use</Link>
+            <Link href=''>Privacy Policy</Link>
+          </li>
+          <li className='card_footer-list-four'>
+            <h3>Follow Us</h3>
+            <Link href=''>Facebook Group</Link>
+            <Link href=''>Linkedin</Link>
+            <Link href=''>Twitter</Link>
+            <Link href=''>Medium Blog</Link>
+          </li>
+          <li className='card_footer-list-five'>
+            <h3>Language</h3>
+            <Link href='/'>English</Link>
+            <Link href='/'>Vietnamese</Link>
+          </li>
+        </ul>
+      </footer>
     </>
   )
 }

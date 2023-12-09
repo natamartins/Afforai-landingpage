@@ -1,0 +1,18 @@
+.section_ten-card-carousel {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15rem;
+}
+
+.section_ten-card-info-witnesses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 5rem;
+
+    h3 {
+        font-size: 36px;
+    }
+}

@@ -6,6 +6,10 @@
 
 body {
     background-color: $white-primary;
+
+    *::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 ul {

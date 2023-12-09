@@ -1,0 +1,97 @@
+.card-carousel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card-carousel-link {
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.link-animation:hover {
+    animation-play-state: paused;
+}
+
+.link-animation {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card_title-mobile {
+    display: none;
+}
+
+.item_carousel {
+    flex-shrink: 0;
+}
+
+.left {
+    animation: carousel-left 30s linear infinite;
+
+    &:hover {
+        animation-play-state: paused;
+        cursor: pointer;
+    }
+}
+
+.right {
+    animation: carousel-right 30s linear infinite;
+
+    &:hover {
+        animation-play-state: paused;
+        cursor: pointer;
+    }
+}
+
+
+@keyframes carousel-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes carousel-right {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 810px) {
+    // .card-carousel {
+    //     width: 100%;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     gap: 2rem;
+    // }
+
+    .card-carousel-link {
+        justify-content: none !important;
+    }
+
+    .link-animation {
+        animation: carousel-left 20s linear infinite;
+    }
+
+    .card_title-mobile {
+        display: flex;
+    }
+}

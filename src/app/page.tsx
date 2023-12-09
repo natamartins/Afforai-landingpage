@@ -10,9 +10,11 @@ import CardListCheckGreen from '@/components/CardListCheckGreen/Index'
 import CardListInfo from '@/components/CardListInfo/Index'
 import CardInfoSectionThree from '@/components/CardInfoSectionThree/Index'
 import CardInfoSectionFive from '@/components/CardInfoSectionFive/Index'
+import CardWitnesses from '@/components/CardWitnesses/Index'
 import IconFastMode from '@/img/fast-forward.svg'
 import IconPowerFul from '@/img/power-off.svg'
 import IconSearch from '@/img/search-plus.svg'
+import PhReview from '@/img/ph-review.webp'
 import LaptopLadingpage01 from '@/img/laptop-landing-1.png'
 import LaptopLadingpage02 from '@/img/laptop-landing-2.png'
 import LaptopLadingpage03 from '@/img/laptop-landing-3.png'
@@ -31,6 +33,7 @@ import LaptopLadingpage15 from '@/img/laptop-landing-15.png'
 import LaptopLadingpage17 from '@/img/laptop-landing-17.png'
 import LaptopLadingpage18 from '@/img/laptop-landing-18.png'
 import LaptopLadingpage19 from '@/img/laptop-landing-19.png'
+import CarouselInfinitLoop from '@/components/CarouselInfinitLoop/Index'
 
 export default function Home() {
   const url = 'https://appsumo.com/products/Afforai/?p=1&clickId=WZ6wcxyF0xyPUvwxVMQEwwLVUkFSpxQm%3AVl6wM0&irgwc=1&utm_medium=4245229&utm_campaign=Online%20Tracking%20Link&utm_source=IR#pricePlans'
@@ -58,11 +61,23 @@ export default function Home() {
               the key findings you need.
             </p>
           </div>
-          <div className='card_title-check'>
-            <CardTitleCheck title="Summarize Key Findings" />
-            <CardTitleCheck title="Compare Between Documents" />
-            <CardTitleCheck title="Search For Answers" />
-            <CardTitleCheck title="Ask in Any Language" />
+          <div className='card-carousel-link link-animation'>
+            <CarouselInfinitLoop>
+              <div className='card_title-check'>
+                <CardTitleCheck title="Summarize Key Findings" />
+                <CardTitleCheck title="Compare Between Documents" />
+                <CardTitleCheck title="Search For Answers" />
+                <CardTitleCheck title="Ask in Any Language" />
+              </div>
+            </CarouselInfinitLoop>
+            <CarouselInfinitLoop>
+              <div className='card_title-check card_title-mobile'>
+                <CardTitleCheck title="Summarize Key Findings" />
+                <CardTitleCheck title="Compare Between Documents" />
+                <CardTitleCheck title="Search For Answers" />
+                <CardTitleCheck title="Ask in Any Language" />
+              </div>
+            </CarouselInfinitLoop>
           </div>
           <div className='section_one-card_links'>
             <CardPurple title="Try for free" />
@@ -260,6 +275,117 @@ export default function Home() {
               description="Our powerful comprehension model increases the power of our data retrieval."
             />
 
+          </div>
+        </section>
+        <section className='section_ten'>
+          <div className='section_ten-card-info-witnesses container'>
+            <Link href="https://www.producthunt.com/products/afforai" target='__blank'>
+              <Image src={PhReview} alt='' />
+            </Link>
+            <h3>See what our users say</h3>
+            <p>Loved by thousands, all around the World</p>
+          </div>
+          <div className='section_ten-card-carousel'>
+            <div className='card-carousel  left'>
+              <CarouselInfinitLoop>
+                <div className='card_title-check'>
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                </div>
+              </CarouselInfinitLoop>
+              <CarouselInfinitLoop>
+                <div className='card_title-check '>
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                </div>
+              </CarouselInfinitLoop>
+            </div>
+            <div className='card-carousel  right'>
+              <CarouselInfinitLoop>
+                <div className='card_title-check'>
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                </div>
+              </CarouselInfinitLoop>
+              <CarouselInfinitLoop>
+                <div className='card_title-check '>
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                  <CardWitnesses
+                    title="Henry Sipchen, Marketing Coordinator"
+                    description='AMAZING PRODUCT!, especially for low-tech but love new tech person like me!! Used it to craft emails because I spend wayyy too much time writing.'
+                    image={LaptopLadingpage17}
+                  />
+                </div>
+              </CarouselInfinitLoop>
+            </div>
           </div>
         </section>
       </main>

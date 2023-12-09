@@ -1,0 +1,54 @@
+.card_witnesses {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 266px;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid $gray-03;
+}
+
+.card_witnesses-description {
+    word-wrap: break-word;
+    border-bottom: 1px solid $gray-03;
+    padding-bottom: 5.5rem;
+    margin-bottom: 1rem;
+    color: $black-02;
+    font-size: 16px;
+}
+
+.card_witnesses-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+.card_witnesses-info-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        padding: 0.3rem 0.5rem;
+        border-radius: 10px;
+        font-size: 12px;
+        background: $purple-06;
+        border: 1px solid $red-01;
+        color: $red-01;
+        font-weight: 500;
+    }
+}

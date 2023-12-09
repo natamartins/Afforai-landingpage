@@ -28,7 +28,7 @@
     a {
         display: flex;
         align-items: center;
-        font-size: 12px;
+        font-size: $small;
         padding: 5px;
         gap: 5px;
         border-radius: 6px;
@@ -92,6 +92,7 @@
     .section_one {
         padding-top: 5rem;
         margin-bottom: -3rem;
+        overflow: hidden;
     }
 
     .section_one-info {

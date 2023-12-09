@@ -55,7 +55,7 @@ export default function Home() {
           <div className='section_one-app-sumo'>
             <Image src={AppSumo} width={30} height={30} alt='logo app sumo' />
             <p>Now on AppSumo</p>
-            <Link href={url} >
+            <Link target="_blank" href={url} >
               Get Lifetime Deal
               <ChevronRight size={12} />
             </Link>
@@ -189,12 +189,12 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <Image src={LaptopLadingpage11} alt='' />
+            <Image src={LaptopLadingpage11} alt='image laptop ladingpage 11' />
           </div>
         </section>
         <section className='section_five container'>
           <div className='section_five-imagem-laptop12 card-one'>
-            <Image src={LaptopLadingpage12} alt='' className='section_five-img-flaptop' />
+            <Image src={LaptopLadingpage12} alt='image laptop ladingpage 12' className='section_five-img-flaptop' />
           </div>
           <div className='section_five-box-info card-two'>
             <CardListInfo
@@ -233,12 +233,12 @@ export default function Home() {
             />
           </div>
           <div>
-            <Image src={LaptopLadingpage13} alt='' />
+            <Image src={LaptopLadingpage13} alt='image laptop ladingpage 13' />
           </div>
         </section>
         <section className='section_seven container'>
           <div className='section_seven-imagem-laptop14'>
-            <Image src={LaptopLadingpage14} alt='' />
+            <Image src={LaptopLadingpage14} alt='image laptop ladingpage 14' />
           </div>
           <div className='section_seven-card-info'>
             <CardListInfo
@@ -255,7 +255,7 @@ export default function Home() {
             description="Afforai allows you to upload files directly from Google Drive, One Drive & Dropbox, meaning your experience will be smooth sailing regardless of your preferred"
           />
           <div className='section_eight-imagem-laptop15'>
-            <Image src={LaptopLadingpage15} alt='' />
+            <Image src={LaptopLadingpage15} alt='image laptop ladingpage 15' />
           </div>
         </section>
         <section className='section_nine container'>
@@ -286,8 +286,8 @@ export default function Home() {
         </section>
         <section className='section_ten'>
           <div className='section_ten-card-info-witnesses container'>
-            <Link href="https://www.producthunt.com/products/afforai" target='__blank'>
-              <Image src={PhReview} alt='' />
+            <Link target="_blank" href="https://www.producthunt.com/products/afforai">
+              <Image src={PhReview} alt='Icon ph review' />
             </Link>
             <h3>See what our users say</h3>
             <p>Loved by thousands, all around the World</p>
@@ -403,7 +403,7 @@ export default function Home() {
               description="We crafted Afforai with total belief in our ability to make a chatbot that is not only powerful and reliable, but able to maximise your satisfaction as a user. This is why we have implemented a money back guarantee if you find yourself not satisfied with the capabilities of Afforai."
             />
             <div className='section_eleven-image-laptop20'>
-              <Image src={LaptopLadingpage20} alt='' />
+              <Image src={LaptopLadingpage20} alt='image laptop ladingpage 20' />
             </div>
           </div>
           <div className='section_eleven-card-info-get-started'>
@@ -412,13 +412,13 @@ export default function Home() {
               description="Join an ever-growing community, and get with Afforai started free of charge!"
             />
             <CardPurple title="Get Started for Free" />
-            <Image src={LaptopLadingpage16} alt='' />
+            <Image src={LaptopLadingpage16} alt='image laptop ladingpage 16' />
           </div>
         </section>
         <section className='section_faqs'>
           <div className='section_faqs-card-info'>
             <h3>FAQs</h3>
-            <p>For more information, check out our <Link href='https://help.afforai.com/en/' > Help Center.</Link></p>
+            <p>For more information, check out our <Link target="_blank" href='https://help.afforai.com/en/' > Help Center.</Link></p>
           </div>
           <div className='section_faqs-list-questions'>
             <CardFAQs
@@ -453,46 +453,48 @@ export default function Home() {
           <li className='card_footer-list-one'>
             <div className='card_footer-list-one-box-logo'>
               <div>
-                <Image src={Logo} alt='' />
+                <Image src={Logo} alt='Icon logo' />
                 <h3>Afforai</h3>
               </div>
               <p>Afforai is your research tool in to damn near anything. Helping you summarise, translate, and withdraw data from documents.</p>
               <p>Copyright © 2023 Afforai Inc. All rights reserved.</p>
             </div>
             <div className='card_footer-image-top-post-badge'>
-              <Image src={TopPostBadge} alt='' />
+              <Link target="_blank" href='https://www.producthunt.com/products/afforai?utm_source=badge-top-post-badge&utm_medium=badge#afforai'>
+                <Image src={TopPostBadge} alt='Icon top post badge' />
+              </Link>
             </div>
             <div className='card_footer-box-image-sputnikatx'>
               <h3>Backed by</h3>
-              <Image src={SputnikATX} alt='' />
+              <Image src={SputnikATX} alt='Icon sputnik atx' />
             </div>
           </li>
           <li className='card_footer-list-two'>
             <h3>Company</h3>
-            <Link href=''>Our Stony</Link>
-            <Link href=''>Affiliate</Link>
-            <Link href=''>security</Link>
-            <Link href=''>Roadmap</Link>
-            <Link href=''>Contact Us</Link>
+            <Link target="_blank" href='https://afforai.com/our_story'>Our Stony</Link>
+            <Link target="_blank" href='https://afforai.getrewardful.com/signup'>Affiliate</Link>
+            <Link target="_blank" href='https://afforai.com/security'>security</Link>
+            <Link target="_blank" href='https://trello.com/b/98yNMfwA/afforai-roadmap'>Roadmap</Link>
+            <Link target="_blank" href='https://afforai.com/contact'>Contact Us</Link>
           </li>
           <li className='card_footer-list-three'>
             <h3>Resources</h3>
-            <Link href=''>Help Center</Link>
-            <Link href=''>API Docs</Link>
-            <Link href=''>Terms of Use</Link>
-            <Link href=''>Privacy Policy</Link>
+            <Link target="_blank" href='https://help.afforai.com/en/'>Help Center</Link>
+            <Link target="_blank" href='https://afforai.com/documentation'>API Docs</Link>
+            <Link target="_blank" href='https://afforai.com/terms_of_use'>Terms of Use</Link>
+            <Link target="_blank" href='https://afforai.com/privacy_policy'>Privacy Policy</Link>
           </li>
           <li className='card_footer-list-four'>
             <h3>Follow Us</h3>
-            <Link href=''>Facebook Group</Link>
-            <Link href=''>Linkedin</Link>
-            <Link href=''>Twitter</Link>
-            <Link href=''>Medium Blog</Link>
+            <Link target="_blank" href='https://www.facebook.com/groups/afforai'>Facebook Group</Link>
+            <Link target="_blank" href='https://www.linkedin.com/company/afforai/'>Linkedin</Link>
+            <Link target="_blank" href='https://twitter.com/afforai/'>Twitter</Link>
+            <Link target="_blank" href='https://medium.com/@alec-afforai'>Medium Blog</Link>
           </li>
           <li className='card_footer-list-five'>
             <h3>Language</h3>
-            <Link href='/'>English</Link>
-            <Link href='/'>Vietnamese</Link>
+            <Link target="_blank" href='/'>English</Link>
+            <Link target="_blank" href='/'>Vietnamese</Link>
           </li>
         </ul>
       </footer>

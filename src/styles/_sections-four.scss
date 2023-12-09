@@ -26,19 +26,19 @@
     gap: 1rem;
 }
 
-@media (max-width: 810px){
+@media (max-width: 810px) {
     .section_four {
         flex-direction: column;
         text-align: center;
         align-items: center;
-        margin-bottom:5rem ;
-    }
-
-    .section_four-card-info{
         margin-bottom: 5rem;
     }
 
-    .section_four-card-link{
+    .section_four-card-info {
+        margin-bottom: 5rem;
+    }
+
+    .section_four-card-link {
         justify-content: center;
     }
 }

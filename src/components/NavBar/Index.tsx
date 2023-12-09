@@ -21,16 +21,16 @@ const Index = () => {
                     <p>Afforai</p>
                 </div>
                 <ul className="container_nav-links">
-                    <Link href='https://afforai.getrewardful.com/signup'>
+                    <Link target='_blank' href='https://afforai.getrewardful.com/signup'>
                         <li>Affiliation</li>
                     </Link>
-                    <Link href='https://afforai.com/pricing'>
+                    <Link target='_blank' href='https://afforai.com/pricing'>
                         <li>Pricing</li>
                     </Link>
-                    <Link href='/'>
+                    <Link target='_blank' href='/'>
                         <li>Testimonials</li>
                     </Link>
-                    <Link href='https://help.afforai.com/en/'>
+                    <Link target='_blank' href='https://help.afforai.com/en/'>
                         <li>Help Center</li>
                     </Link>
                 </ul>
@@ -45,16 +45,16 @@ const Index = () => {
             {
                 open === true && (
                     <ul className="container_nav-links-mobile">
-                        <Link href='https://afforai.getrewardful.com/signup'>
+                        <Link target='_blank' href='https://afforai.getrewardful.com/signup'>
                             <li>Affiliation</li>
                         </Link>
-                        <Link href='https://afforai.com/pricing'>
+                        <Link target='_blank' href='https://afforai.com/pricing'>
                             <li>Pricing</li>
                         </Link>
-                        <Link href='/'>
+                        <Link target='_blank' href='/'>
                             <li>Testimonials</li>
                         </Link>
-                        <Link href='https://help.afforai.com/en/'>
+                        <Link target='_blank' href='https://help.afforai.com/en/'>
                             <li>Help Center</li>
                         </Link>
                     </ul>

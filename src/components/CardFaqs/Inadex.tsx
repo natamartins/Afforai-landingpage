@@ -1,7 +1,6 @@
 "use client"
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import React, { useState } from 'react'
-
 interface typeCardFaqs {
     question: string,
     answer: string

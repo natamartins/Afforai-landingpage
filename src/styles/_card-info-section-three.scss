@@ -19,14 +19,14 @@
         display: flex;
         align-items: center;
         gap: 5px;
-        font-size: 16px;
+        font-size: $medium;
         margin-bottom: 5px;
         color: $black-02;
 
         span {
             padding: 0.23rem 0.5rem;
             font-size: 9px;
-            font-weight: 500;
+            font-weight: $weight-5;
             border-radius: 20px;
             background: $purple-05;
             color: $purple-04;
@@ -34,7 +34,7 @@
     }
 
     p {
-        font-size: 12px;
+       font-size: $big-small;
         color: $gray-04;
         a{
             color: $blue-01;

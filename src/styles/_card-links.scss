@@ -2,7 +2,7 @@
     padding: 5px 14px;
     border-radius: 8px;
     border: 1px solid $gray-02;
-    font-size: 14px;
+   font-size: $small;
     background-color: $gray-01;
     color: $black-03;
 
@@ -17,7 +17,7 @@
     border-radius: 8px;
     background: $background-btn-purple;
     border: 1px solid hsla(0, 0%, 100%, .2);
-    font-size: 14px;
+   font-size: $small;
     color: $white-primary;
 
     &:hover {

@@ -15,11 +15,11 @@ const Index = ({ image, description, title }: TypeCardWitnesses) => {
             <p className='card_witnesses-description'>{description}</p>
             <div className='card_witnesses-info-box'>
                 <div className='card_witnesses-info'>
-                    <Image src={image} alt='' />
+                    <Image src={image} alt={title} />
                     <p>{title}</p>
                 </div>
                 <Link href='https://www.producthunt.com/products/afforai'>
-                    <Image src={ProductHunt} alt='' />
+                    <Image src={ProductHunt} alt={description} />
                     <p>View on Product Hunt</p>
                 </Link>
             </div>

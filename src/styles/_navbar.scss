@@ -3,7 +3,7 @@
 .container_nav-btn {
     display: flex;
     align-items: center;
-    font-weight: 500;
+    font-weight: $weight-5;
 }
 
 .container_nav {
@@ -35,7 +35,7 @@
 
 .container_nav-links {
     gap: 1.2rem;
-    font-size: 14px;
+    font-size: $small;
 
     a {
         color: $black-01;
@@ -68,7 +68,7 @@
 
     a {
         color: $black-01;
-        font-size: 14px;
+        font-size: $small;
 
         &:hover {
             color: $black-03;
